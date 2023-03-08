@@ -1,0 +1,7 @@
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Konsumsi> listKonsumsi = new ArrayList<>();
+        Konsumsi<Makanan, Minuman> breakfast = new Konsumsi<>();
+        Konsumsi<Makanan, Minuman> lunch = new Konsumsi<>();
